@@ -1,0 +1,38 @@
+The 'likefile' is supposed to contain all the words found int doucuments(files) classified as "like". Similarly for the 'dislike' file.
+
+The 'testfile' contains the content of the document to be tested.
+
+The 'DataSet' folder contains 6 files from f1 to f6.
+
+As this implemantation requires, these files are given prior classificationa as follows :
+
+f1 : like
+
+f2 : dislike
+
+f3 : like
+
+f4 : dislike
+
+f5 : dislike
+
+f6 : like
+
+So all the documents which are supposed to be classified must be placed in either f1,f3 or f6, and the other documents are to be placed in the remaining files.
+
+Please Note that these files contain certain content. files f1,f3 and f6 contain extracts from articles on 'cricket'.
+
+files f2,f4 and f5 contain extracts from articles on 'international politics'.
+
+The testfile has been initialized to contain data on 'cricket'.
+
+These data can be used to check the correctness of the algorithm. However, PLEASE NOTE THAT THE PATHS TO THESE FILES HAVE 
+
+BEEN HARD CODED ACCORDING TO THE SYSTEM IN WHICH THE ALGORITHM WAS IMPLEMENTED, SO THESE PATHS MUST BE CHANGED TO ENSURE 
+
+PROPER EXECUTION.
+
+The program is supposed to return "like(cricket)". On getting the output other-wise, please consider deleting the 
+
+'testfile' completely and reloading it with the data. (refer to section 3 of the report for the same) 
+
